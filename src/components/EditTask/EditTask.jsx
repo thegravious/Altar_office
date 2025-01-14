@@ -77,7 +77,7 @@ const EditTask = ({ setTasks, taskData, buttonName }) => {
                onSubmit={handleSubmit}
                className="fixed top-0 left-0 w-full h-[100vh] lg:h-full bg-gray-900 bg-opacity-70 z-50 flex justify-center items-center"
              >
-               <div className="bg-white relative flex flex-col md:flex-row justify-between rounded-2xl p-8 w-11/12 md:w-3/4 h-[90%]">
+               <div className="bg-white relative flex flex-col md:flex-row justify-between rounded-2xl p-8 w-11/12 md:w-3/4 h-[85%]">
                  <div className="w-full md:w-[60%]">
                    <div className="flex justify-between items-center mb-4">
                      <p className="text-gray-500 mb-4 text-2xl">Update Task</p>
