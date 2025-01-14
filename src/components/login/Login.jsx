@@ -41,7 +41,7 @@ const Login = () => {
                         onClick={handleGoogleLogin}
                     >
                         {/* Google Logo */}
-                        <img src={"/googlelogo.png"} className="lg:w-10 lg:h-10 w-5 h-5 mr-4" alt="Google Logo" />
+                        <img src={"/googlelogo.png"} className="lg:w-10 z-50 lg:h-10 w-5 h-5 mr-4" alt="Google Logo" />
                         <span className="lg:text-2xl">Continue With Google</span>
                     </button>
                 </div>
