@@ -194,7 +194,7 @@ const EditTask = ({ setTasks, taskData, buttonName }) => {
                      </button>
                    </div>
              
-                   <div className="bg-gray-200 border border-t-[2px] border-gray-300  w-[92vw] relative right-8 rounded-bl-2xl rounded-br-2xl">
+                   <div className="bg-gray-200 border border-t-[2px] border-gray-300  w-[92vw] bottom-0 relative right-8 rounded-bl-2xl rounded-br-2xl">
                      <div className="flex justify-end p-3">
                        <button
                          type="button"
