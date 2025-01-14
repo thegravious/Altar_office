@@ -133,7 +133,7 @@ const DisplayTask = ({ checkTasks, setCheckTasks, task, setTasks}) => {
                     </div>
                     <div className="relative">
                         <button
-                        className='lg:block hidden'
+                        className=''
                             onClick={() => {
                                 setIsVisible(!isVisible)
                             }}
@@ -148,7 +148,7 @@ const DisplayTask = ({ checkTasks, setCheckTasks, task, setTasks}) => {
                             </button>
                             <button
                                 onClick={handleDelete}
-                                type="button" className="flex w-full items-center text-red-500 text-left px-3 py-1">
+                                type="button" className="lg:flex w-full items-center hidden text-red-500 text-left px-3 py-1">
                                 <RiDeleteBinFill className='mr-2' />
                                 Delete
                             </button>
