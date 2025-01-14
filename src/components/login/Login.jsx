@@ -37,11 +37,11 @@ const Login = () => {
                         Streamline your workflow and track progress effortlessly with our all-in-one task management app.
                     </p>
                     <button
-                        className="bg-[#292929] text-white lg:p-4 py-3 lg:rounded-3xl rounded-2xl flex items-center justify-center lg:justify-start w-[70vw] lg:w-auto"
+                        className="bg-[#292929] z-50 text-white lg:p-4 py-3 lg:rounded-3xl rounded-2xl flex items-center justify-center lg:justify-start w-[70vw] lg:w-auto"
                         onClick={handleGoogleLogin}
                     >
                         {/* Google Logo */}
-                        <img src={"/googlelogo.png"} className="lg:w-10 z-50 lg:h-10 w-5 h-5 mr-4" alt="Google Logo" />
+                        <img src={"/googlelogo.png"} className="lg:w-10 lg:h-10 w-5 h-5 mr-4" alt="Google Logo" />
                         <span className="lg:text-2xl">Continue With Google</span>
                     </button>
                 </div>
