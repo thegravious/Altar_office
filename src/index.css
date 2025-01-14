@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.ql-container {
+    border-radius: 0 0 0.5rem 0.5rem;
+    background-color:#f9fafb;  
+}
+
+.ql-toolbar {
+    background-color:#f9fafb;
+    border-radius: 0.5rem 0.5rem 0 0;  /* Rounded top corners */
+}
+
+
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
